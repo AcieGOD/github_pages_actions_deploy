@@ -16,4 +16,9 @@ export default defineConfig({
             ),
     },
 },
+    plugins: [
+        htmlPurge({}),
+        ViteMinifyPlugin([]),
+    ],
+    base: "/github_pages_actions_deploy/"
 })
