@@ -14,6 +14,6 @@ export default defineConfig({
                     file.slice(0, file.length - path.extname(file).length), resolve(__dirname, file)
                 ])]
             ),
-        },
-    },
+    },
+},
 })
